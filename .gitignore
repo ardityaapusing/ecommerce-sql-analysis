@@ -1,0 +1,20 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+
+# VSCode / IDE files
+.vscode/
+*.code-workspace
+
+# Data (optional: raw or large files)
+data/*.csv
+
+# Assets (optional if you regenerate figures)
+# assets/
