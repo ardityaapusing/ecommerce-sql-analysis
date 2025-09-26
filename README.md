@@ -5,6 +5,7 @@
 [![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue)](https://www.kaggle.com/datasets/ertugrulesol/online-retail-data)
 
 This repository contains a comprehensive **exploratory data analysis (EDA)** of an e-commerce transactions dataset using Python and Jupyter Notebook.  
+
 The goal is to uncover insights about **customer purchasing behavior, product performance, and sales trends across countries**, providing actionable information for business strategy and decision-making.
 
 ---
@@ -14,7 +15,6 @@ The goal is to uncover insights about **customer purchasing behavior, product pe
 ecommerce-sales-analysis/
 │
 ├─ data/ # (Optional) Raw dataset (excluded, see Data Source)
-│ └─ sample_data.csv # Small sample for demo runs
 ├─ notebooks/ # Jupyter notebooks
 │ └─ ecommerce_analysis.ipynb
 ├─ requirements.txt # Python dependencies
@@ -36,26 +36,23 @@ To reproduce the analysis:
 
 ---
 
-## 🔍 Analysis Overview
-<details>
-<summary>Click to expand</summary>
+## 🚀 Key Insights & Business Recommendations  
 
-1. **Top-Selling Products**  
-   - Identified the 10 products with the **highest total sales quantities**.  
-   - Example: *Paper Craft, Little Birdie* and *Medium Ceramic Top Storage Jar* dominate sales.
+1. **Product Portfolio**  
+   - A small group of products contributes disproportionately to overall sales.  
+   - *Recommendation*: Prioritize these high-performing products in **inventory planning and promotions** to maximize return on investment.  
 
-2. **Top Countries by Sales**  
-   - United Kingdom contributes the majority of transactions.  
-   - Other significant markets: Netherlands, Germany, France, and Australia.
+2. **Market Concentration**  
+   - The **United Kingdom dominates** sales volume, while international markets (Germany, France, Netherlands, Australia) remain relatively small.  
+   - *Recommendation*: Maintain UK market leadership while developing **localized campaigns** to expand international sales.  
 
-3. **Monthly Sales Trend**  
-   - Sales show strong seasonal patterns.  
-   - Peak sales occur in **November**, likely due to holiday shopping.
+3. **Seasonality**  
+   - Sales consistently peak in **November–December**, reflecting strong **holiday-driven demand**.  
+   - *Recommendation*: Increase stock levels and launch **targeted Q4 marketing campaigns** to capture seasonal opportunities.  
 
-4. **Customer Purchase Behavior** *(Optional expansion)*  
-   - Repeat purchases, average order quantity, and customer segmentation.
-
-</details>
+4. **Customer Engagement (Expansion Opportunity)**  
+   - Patterns suggest opportunities to explore **repeat purchases and customer segmentation**.  
+   - *Recommendation*: Conduct deeper analysis of **customer lifetime value (CLV)** and design **loyalty programs** to improve long-term retention.  
 
 ---
 
