@@ -10,16 +10,32 @@ The goal is to uncover insights about **customer purchasing behavior, product pe
 
 ---
 
+## 📑 Table of Contents
+- [Project Structure](#-project-structure)  
+- [Data Source](#-data-source)  
+- [Key Insights & Business Recommendations](#-key-insights--business-recommendations)  
+- [Example Visualizations](#-example-visualizations)  
+- [Tools & Libraries](#-tools--libraries)  
+- [Setup & Reproducibility](#-setup--reproducibility)  
+- [Best Practices](#-best-practices-implemented)  
+- [Future Work](#-future-work)  
+- [Author](#-author)  
+- [License](#-license)  
+
+---
+
 ## 🗂️ Project Structure
 ```
 ecommerce-sales-analysis/
-│
-├─ data/ # (Optional) Raw dataset (excluded, see Data Source)
-├─ notebooks/ # Jupyter notebooks
-│ └─ ecommerce_analysis.ipynb
-├─ requirements.txt # Python dependencies
-├─ README.md # Project documentation
-└─ .gitignore # Files/folders to ignore
+ ┣ assets/
+ ┃ ┣ top_products.png
+ ┃ ┣ top_countries.png
+ ┃ ┗ monthly_sales.png
+ ┣ notebooks/
+ ┃ ┗ ecommerce_analysis.ipynb
+ ┣ README.md
+ ┣ requirements.txt
+ ┗ .gitignore
 ```
 
 ---
@@ -56,11 +72,21 @@ To reproduce the analysis:
 
 ---
 
-## 📊 Visualizations
-- **Bar chart**: Top 10 Best-Selling Products  
-- **Horizontal bar chart**: Top 10 Countries by Sales Quantity  
-- **Line plot**: Monthly Sales Trend  
-- *(Optional advanced visuals: heatmaps, pivot charts, distribution plots)*
+## 📊 Example Visualizations  
+
+### 1. Top 10 Best-Selling Products  
+![Top Products](assets/top_products.png)  
+📌 *Observation*: A small number of products dominate sales, such as **Paper Craft, Little Birdie** and **Medium Ceramic Top Storage Jar**.  
+
+---
+### 2. Top 10 Countries by Sales Quantity  
+![Top Countries](assets/top_countries.png)  
+📌 *Observation*: The **United Kingdom contributes the majority of transactions**, while other countries like Germany, France, and the Netherlands play a smaller role.  
+
+---
+### 3. Monthly Sales Trend  
+![Monthly Sales](assets/monthly_sales.png)  
+📌 *Observation*: Clear **seasonal sales patterns** exist, with demand peaking in **November–December** (holiday shopping).  
 
 ---
 
@@ -70,14 +96,6 @@ To reproduce the analysis:
 - **Matplotlib / Seaborn**: Visualization and styling  
 - **Jupyter Notebook / Lab**: Interactive analysis environment  
 - *(Optional: Plotly for interactive charts, Scikit-learn for clustering/segmentation)*
-
----
-
-## 🚀 Key Insights
-- **Product concentration:** A small set of products drives the majority of sales.  
-- **Market focus:** United Kingdom dominates, international sales are smaller.  
-- **Seasonality:** Peak sales in Q4; potential marketing opportunity.  
-- **Business recommendation:** Optimize inventory for high-performing products and plan seasonal promotions.
 
 ---
 
@@ -117,9 +135,24 @@ Open notebooks/ecommerce_analysis.ipynb and run all cells to reproduce the analy
 
 ## 📌 Best Practices Implemented
 - Modular project structure (notebooks/, data/, requirements.txt)
-- Clear explanation of purpose, insights, and reproducibility
+- Comprehensive documentation with clear purpose, actionable insights, and reproducibility
 - Professional formatting with emoji headers, badges, and collapsible sections
 - Encourages scalability for future analysis notebooks or scripts
+
+## 🔮 Future Work (Planned Enhancements)
+This project can be extended with the following analyses:  
+
+- [ ] **Customer Segmentation (K-Means, RFM)**  
+   Group customers based on purchasing behavior to enable personalized marketing strategies.  
+
+- [ ] **Predictive Modeling (Time Series)**  
+   Forecast future sales trends and seasonality to support demand planning.  
+
+- [ ] **Churn Analysis**  
+   Identify customers at risk of not returning and design retention strategies.  
+
+- [ ] **Recommendation Systems**  
+   Build cross-sell and up-sell models to improve average order value and customer experience.  
 
 ## 🖋️ Author
 **Arditya Apusing**  
